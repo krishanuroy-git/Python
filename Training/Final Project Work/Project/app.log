@@ -1,0 +1,285 @@
+2025-09-28 16:23:28,069 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-28 16:23:28,069 INFO: [33mPress CTRL+C to quit[0m
+2025-09-28 16:23:28,075 INFO:  * Restarting with stat
+2025-09-28 16:23:33,308 WARNING:  * Debugger is active!
+2025-09-28 16:23:33,322 INFO:  * Debugger PIN: 121-733-698
+2025-09-28 16:23:34,516 INFO: 127.0.0.1 - - [28/Sep/2025 16:23:34] "GET /login HTTP/1.1" 200 -
+2025-09-28 16:23:37,051 INFO: 127.0.0.1 - - [28/Sep/2025 16:23:37] "GET /register HTTP/1.1" 200 -
+2025-09-28 16:23:51,220 INFO: Registration Initiated
+2025-09-28 16:23:51,261 INFO: Database connection established
+2025-09-28 16:23:51,271 INFO: Student 'Krishanu' is registered successfully !!
+2025-09-28 16:23:51,271 INFO: Closing database connection
+2025-09-28 16:23:51,271 INFO: Registration successful for email=krishanu.roy@gmail.com
+2025-09-28 16:23:51,271 INFO: 127.0.0.1 - - [28/Sep/2025 16:23:51] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-09-28 16:23:51,283 INFO: 127.0.0.1 - - [28/Sep/2025 16:23:51] "GET /login HTTP/1.1" 200 -
+2025-09-28 16:23:56,605 INFO: 127.0.0.1 - - [28/Sep/2025 16:23:56] "GET /register HTTP/1.1" 200 -
+2025-09-28 16:24:06,603 INFO: Registration Initiated
+2025-09-28 16:24:06,615 INFO: Database connection established
+2025-09-28 16:24:06,655 INFO: Student 'Roy' is registered successfully !!
+2025-09-28 16:24:06,655 INFO: Closing database connection
+2025-09-28 16:24:06,655 INFO: Registration successful for email=krishanu.roy@mindteck.com
+2025-09-28 16:24:06,658 INFO: 127.0.0.1 - - [28/Sep/2025 16:24:06] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-09-28 16:24:06,665 INFO: 127.0.0.1 - - [28/Sep/2025 16:24:06] "GET /login HTTP/1.1" 200 -
+2025-09-28 16:24:11,998 INFO: Database connection established
+2025-09-28 16:24:12,000 INFO: Successfully logged in
+2025-09-28 16:24:12,000 INFO: Closing database connection
+2025-09-28 16:24:12,000 INFO: Login successful for email=krishanu.roy@gmail.com
+2025-09-28 16:24:12,000 INFO: 127.0.0.1 - - [28/Sep/2025 16:24:12] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-09-28 16:24:12,008 INFO: Get student ID by email
+2025-09-28 16:24:12,023 INFO: Database connection established
+2025-09-28 16:24:12,023 INFO: Closing database connection
+2025-09-28 16:24:12,023 INFO: Fetching all courses from database
+2025-09-28 16:24:12,039 INFO: Database connection established
+2025-09-28 16:24:12,039 INFO: Closing database connection
+2025-09-28 16:24:12,056 INFO: 127.0.0.1 - - [28/Sep/2025 16:24:12] "GET /submit_feedback?email=krishanu.roy@gmail.com HTTP/1.1" 200 -
+2025-09-28 16:24:18,819 INFO: 127.0.0.1 - - [28/Sep/2025 16:24:18] "GET /login HTTP/1.1" 200 -
+2025-09-28 16:24:27,073 INFO: Database connection established
+2025-09-28 16:24:27,075 INFO: Successfully logged in
+2025-09-28 16:24:27,075 INFO: Closing database connection
+2025-09-28 16:24:27,075 INFO: Login successful for email=krishanu.roy@mindteck.com
+2025-09-28 16:24:27,080 INFO: 127.0.0.1 - - [28/Sep/2025 16:24:27] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-09-28 16:24:27,088 INFO: Get student ID by email
+2025-09-28 16:24:27,102 INFO: Database connection established
+2025-09-28 16:24:27,105 INFO: Closing database connection
+2025-09-28 16:24:27,105 INFO: Fetching all courses from database
+2025-09-28 16:24:27,113 INFO: Database connection established
+2025-09-28 16:24:27,113 INFO: Closing database connection
+2025-09-28 16:24:27,121 INFO: 127.0.0.1 - - [28/Sep/2025 16:24:27] "GET /submit_feedback?email=krishanu.roy@mindteck.com HTTP/1.1" 200 -
+2025-09-28 16:24:28,848 INFO: 127.0.0.1 - - [28/Sep/2025 16:24:28] "GET /login HTTP/1.1" 200 -
+2025-09-28 16:24:35,549 INFO: Database connection established
+2025-09-28 16:24:35,558 WARNING: Credential    doesn't match
+2025-09-28 16:24:35,559 INFO: Closing database connection
+2025-09-28 16:24:35,559 WARNING: Login failed for email=krishanu.roy@gmail.com
+2025-09-28 16:24:35,563 INFO: 127.0.0.1 - - [28/Sep/2025 16:24:35] "POST /login HTTP/1.1" 200 -
+2025-09-28 16:24:47,585 INFO: Database connection established
+2025-09-28 16:24:47,593 INFO: Successfully logged in
+2025-09-28 16:24:47,593 INFO: Closing database connection
+2025-09-28 16:24:47,593 INFO: Login successful for email=krishanu.roy@mindteck.com
+2025-09-28 16:24:47,593 INFO: 127.0.0.1 - - [28/Sep/2025 16:24:47] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-09-28 16:24:47,605 INFO: Get student ID by email
+2025-09-28 16:24:47,612 INFO: Database connection established
+2025-09-28 16:24:47,618 INFO: Closing database connection
+2025-09-28 16:24:47,618 INFO: Fetching all courses from database
+2025-09-28 16:24:47,626 INFO: Database connection established
+2025-09-28 16:24:47,626 INFO: Closing database connection
+2025-09-28 16:24:47,634 INFO: 127.0.0.1 - - [28/Sep/2025 16:24:47] "GET /submit_feedback?email=krishanu.roy@mindteck.com HTTP/1.1" 200 -
+2025-09-28 16:25:05,031 INFO: Get student ID by email
+2025-09-28 16:25:05,057 INFO: Database connection established
+2025-09-28 16:25:05,057 INFO: Closing database connection
+2025-09-28 16:25:05,057 INFO: Fetching all courses from database
+2025-09-28 16:25:05,074 INFO: Database connection established
+2025-09-28 16:25:05,074 INFO: Closing database connection
+2025-09-28 16:25:05,090 INFO: Database connection established
+2025-09-28 16:25:05,090 INFO: Closing database connection
+2025-09-28 16:25:05,106 INFO: Database connection established
+2025-09-28 16:25:05,123 INFO: Feedback from student '2' is saved succesfully !!
+2025-09-28 16:25:05,123 INFO: Closing database connection
+2025-09-28 16:25:05,123 INFO: Feedback submitted: student=2, course=1
+2025-09-28 16:25:05,123 INFO: 127.0.0.1 - - [28/Sep/2025 16:25:05] "[32mPOST /submit_feedback?email=krishanu.roy@mindteck.com HTTP/1.1[0m" 302 -
+2025-09-28 16:25:05,136 INFO: 127.0.0.1 - - [28/Sep/2025 16:25:05] "GET /login HTTP/1.1" 200 -
+2025-09-28 16:26:12,139 INFO: 127.0.0.1 - - [28/Sep/2025 16:26:12] "GET /register HTTP/1.1" 200 -
+2025-09-28 16:26:30,040 INFO: Registration Initiated
+2025-09-28 16:26:30,063 INFO: Database connection established
+2025-09-28 16:26:30,063 WARNING: Duplicate registration attempt
+2025-09-28 16:26:30,068 ERROR: Exception occured Email already registered exception type : <class 'student.DuplicateRegistrationError'>
+2025-09-28 16:26:30,068 INFO: Closing database connection
+2025-09-28 16:26:30,068 WARNING: Duplicate registration attempt for email=krishanu.roy@gmail.com
+2025-09-28 16:26:30,074 INFO: 127.0.0.1 - - [28/Sep/2025 16:26:30] "POST /register HTTP/1.1" 200 -
+2025-09-28 16:26:35,492 INFO: 127.0.0.1 - - [28/Sep/2025 16:26:35] "GET /login HTTP/1.1" 200 -
+2025-09-28 16:27:07,362 INFO: Database connection established
+2025-09-28 16:27:07,362 INFO: Successfully logged in
+2025-09-28 16:27:07,362 INFO: Closing database connection
+2025-09-28 16:27:07,370 INFO: Login successful for email=krishanu.roy@gmail.com
+2025-09-28 16:27:07,372 INFO: 127.0.0.1 - - [28/Sep/2025 16:27:07] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-09-28 16:27:07,379 INFO: Get student ID by email
+2025-09-28 16:27:07,389 INFO: Database connection established
+2025-09-28 16:27:07,389 INFO: Closing database connection
+2025-09-28 16:27:07,389 INFO: Fetching all courses from database
+2025-09-28 16:27:07,407 INFO: Database connection established
+2025-09-28 16:27:07,407 INFO: Closing database connection
+2025-09-28 16:27:07,407 INFO: 127.0.0.1 - - [28/Sep/2025 16:27:07] "GET /submit_feedback?email=krishanu.roy@gmail.com HTTP/1.1" 200 -
+2025-09-28 16:27:17,320 INFO: Get student ID by email
+2025-09-28 16:27:17,336 INFO: Database connection established
+2025-09-28 16:27:17,336 INFO: Closing database connection
+2025-09-28 16:27:17,336 INFO: Fetching all courses from database
+2025-09-28 16:27:17,354 INFO: Database connection established
+2025-09-28 16:27:17,354 INFO: Closing database connection
+2025-09-28 16:27:17,362 INFO: Database connection established
+2025-09-28 16:27:17,362 INFO: Closing database connection
+2025-09-28 16:27:17,378 INFO: Database connection established
+2025-09-28 16:27:17,386 INFO: Feedback from student '1' is saved succesfully !!
+2025-09-28 16:27:17,386 INFO: Closing database connection
+2025-09-28 16:27:17,386 INFO: Feedback submitted: student=1, course=1
+2025-09-28 16:27:17,386 INFO: 127.0.0.1 - - [28/Sep/2025 16:27:17] "[32mPOST /submit_feedback?email=krishanu.roy@gmail.com HTTP/1.1[0m" 302 -
+2025-09-28 16:27:17,394 INFO: 127.0.0.1 - - [28/Sep/2025 16:27:17] "GET /login HTTP/1.1" 200 -
+2025-09-28 16:27:35,770 INFO: Database connection established
+2025-09-28 16:27:35,778 INFO: Successfully logged in
+2025-09-28 16:27:35,778 INFO: Closing database connection
+2025-09-28 16:27:35,778 INFO: Login successful for email=krishanu.roy@gmail.com
+2025-09-28 16:27:35,780 INFO: 127.0.0.1 - - [28/Sep/2025 16:27:35] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-09-28 16:27:35,788 INFO: Get student ID by email
+2025-09-28 16:27:35,796 INFO: Database connection established
+2025-09-28 16:27:35,796 INFO: Closing database connection
+2025-09-28 16:27:35,796 INFO: Fetching all courses from database
+2025-09-28 16:27:35,807 INFO: Database connection established
+2025-09-28 16:27:35,814 INFO: Closing database connection
+2025-09-28 16:27:35,814 INFO: 127.0.0.1 - - [28/Sep/2025 16:27:35] "GET /submit_feedback?email=krishanu.roy@gmail.com HTTP/1.1" 200 -
+2025-09-28 16:27:43,885 INFO: Get student ID by email
+2025-09-28 16:27:43,909 INFO: Database connection established
+2025-09-28 16:27:43,913 INFO: Closing database connection
+2025-09-28 16:27:43,913 INFO: Fetching all courses from database
+2025-09-28 16:27:43,927 INFO: Database connection established
+2025-09-28 16:27:43,927 INFO: Closing database connection
+2025-09-28 16:27:43,942 INFO: Database connection established
+2025-09-28 16:27:43,942 INFO: Closing database connection
+2025-09-28 16:27:43,945 WARNING: Duplicate feedback attempt: student=1, course=1
+2025-09-28 16:27:43,945 INFO: 127.0.0.1 - - [28/Sep/2025 16:27:43] "POST /submit_feedback?email=krishanu.roy@gmail.com HTTP/1.1" 200 -
+2025-09-28 16:30:03,448 INFO: Get student ID by email
+2025-09-28 16:30:03,465 INFO: Database connection established
+2025-09-28 16:30:03,465 INFO: Closing database connection
+2025-09-28 16:30:03,465 INFO: Fetching all courses from database
+2025-09-28 16:30:03,473 INFO: Database connection established
+2025-09-28 16:30:03,473 INFO: Closing database connection
+2025-09-28 16:30:03,496 INFO: Database connection established
+2025-09-28 16:30:03,496 INFO: Closing database connection
+2025-09-28 16:30:03,529 INFO: Database connection established
+2025-09-28 16:30:03,537 INFO: Feedback from student '1' is saved succesfully !!
+2025-09-28 16:30:03,537 INFO: Closing database connection
+2025-09-28 16:30:03,537 INFO: Feedback submitted: student=1, course=2
+2025-09-28 16:30:03,537 INFO: 127.0.0.1 - - [28/Sep/2025 16:30:03] "[32mPOST /submit_feedback?email=krishanu.roy@gmail.com HTTP/1.1[0m" 302 -
+2025-09-28 16:30:03,554 INFO: 127.0.0.1 - - [28/Sep/2025 16:30:03] "GET /login HTTP/1.1" 200 -
+2025-09-28 16:30:08,960 INFO: Database connection established
+2025-09-28 16:30:08,963 INFO: Successfully logged in
+2025-09-28 16:30:08,963 INFO: Closing database connection
+2025-09-28 16:30:08,966 INFO: Login successful for email=krishanu.roy@gmail.com
+2025-09-28 16:30:08,966 INFO: 127.0.0.1 - - [28/Sep/2025 16:30:08] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-09-28 16:30:08,973 INFO: Get student ID by email
+2025-09-28 16:30:08,984 INFO: Database connection established
+2025-09-28 16:30:08,984 INFO: Closing database connection
+2025-09-28 16:30:08,984 INFO: Fetching all courses from database
+2025-09-28 16:30:09,001 INFO: Database connection established
+2025-09-28 16:30:09,008 INFO: Closing database connection
+2025-09-28 16:30:09,009 INFO: 127.0.0.1 - - [28/Sep/2025 16:30:09] "GET /submit_feedback?email=krishanu.roy@gmail.com HTTP/1.1" 200 -
+2025-09-28 16:30:23,771 INFO: Get student ID by email
+2025-09-28 16:30:23,792 INFO: Database connection established
+2025-09-28 16:30:23,792 INFO: Closing database connection
+2025-09-28 16:30:23,792 INFO: Fetching all courses from database
+2025-09-28 16:30:23,809 INFO: Database connection established
+2025-09-28 16:30:23,809 INFO: Closing database connection
+2025-09-28 16:30:23,820 INFO: Database connection established
+2025-09-28 16:30:23,827 INFO: Closing database connection
+2025-09-28 16:30:23,835 INFO: Database connection established
+2025-09-28 16:30:23,858 INFO: Feedback from student '1' is saved succesfully !!
+2025-09-28 16:30:23,858 INFO: Closing database connection
+2025-09-28 16:30:23,858 INFO: Feedback submitted: student=1, course=3
+2025-09-28 16:30:23,858 INFO: 127.0.0.1 - - [28/Sep/2025 16:30:23] "[32mPOST /submit_feedback?email=krishanu.roy@gmail.com HTTP/1.1[0m" 302 -
+2025-09-28 16:30:23,869 INFO: 127.0.0.1 - - [28/Sep/2025 16:30:23] "GET /login HTTP/1.1" 200 -
+2025-09-28 16:30:46,400 INFO: Database connection established
+2025-09-28 16:30:46,405 INFO: Successfully logged in
+2025-09-28 16:30:46,405 INFO: Closing database connection
+2025-09-28 16:30:46,408 INFO: Login successful for email=krishanu.roy@mindteck.com
+2025-09-28 16:30:46,409 INFO: 127.0.0.1 - - [28/Sep/2025 16:30:46] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-09-28 16:30:46,420 INFO: Get student ID by email
+2025-09-28 16:30:46,422 INFO: Database connection established
+2025-09-28 16:30:46,430 INFO: Closing database connection
+2025-09-28 16:30:46,432 INFO: Fetching all courses from database
+2025-09-28 16:30:46,438 INFO: Database connection established
+2025-09-28 16:30:46,438 INFO: Closing database connection
+2025-09-28 16:30:46,447 INFO: 127.0.0.1 - - [28/Sep/2025 16:30:46] "GET /submit_feedback?email=krishanu.roy@mindteck.com HTTP/1.1" 200 -
+2025-09-28 16:31:06,094 INFO: Get student ID by email
+2025-09-28 16:31:06,113 INFO: Database connection established
+2025-09-28 16:31:06,113 INFO: Closing database connection
+2025-09-28 16:31:06,118 INFO: Fetching all courses from database
+2025-09-28 16:31:06,126 INFO: Database connection established
+2025-09-28 16:31:06,126 INFO: Closing database connection
+2025-09-28 16:31:06,145 INFO: Database connection established
+2025-09-28 16:31:06,145 INFO: Closing database connection
+2025-09-28 16:31:06,145 WARNING: Duplicate feedback attempt: student=2, course=1
+2025-09-28 16:31:06,145 INFO: 127.0.0.1 - - [28/Sep/2025 16:31:06] "POST /submit_feedback?email=krishanu.roy@mindteck.com HTTP/1.1" 200 -
+2025-09-28 16:31:18,688 INFO: Get student ID by email
+2025-09-28 16:31:18,712 INFO: Database connection established
+2025-09-28 16:31:18,712 INFO: Closing database connection
+2025-09-28 16:31:18,712 INFO: Fetching all courses from database
+2025-09-28 16:31:18,736 INFO: Database connection established
+2025-09-28 16:31:18,736 INFO: Closing database connection
+2025-09-28 16:31:18,753 INFO: Database connection established
+2025-09-28 16:31:18,753 INFO: Closing database connection
+2025-09-28 16:31:18,761 INFO: Database connection established
+2025-09-28 16:31:18,769 INFO: Feedback from student '2' is saved succesfully !!
+2025-09-28 16:31:18,769 INFO: Closing database connection
+2025-09-28 16:31:18,769 INFO: Feedback submitted: student=2, course=2
+2025-09-28 16:31:18,769 INFO: 127.0.0.1 - - [28/Sep/2025 16:31:18] "[32mPOST /submit_feedback?email=krishanu.roy@mindteck.com HTTP/1.1[0m" 302 -
+2025-09-28 16:31:18,776 INFO: 127.0.0.1 - - [28/Sep/2025 16:31:18] "GET /login HTTP/1.1" 200 -
+2025-09-28 16:31:26,902 INFO: Database connection established
+2025-09-28 16:31:26,903 INFO: Successfully logged in
+2025-09-28 16:31:26,903 INFO: Closing database connection
+2025-09-28 16:31:26,903 INFO: Login successful for email=krishanu.roy@mindteck.com
+2025-09-28 16:31:26,909 INFO: 127.0.0.1 - - [28/Sep/2025 16:31:26] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-09-28 16:31:26,913 INFO: Get student ID by email
+2025-09-28 16:31:26,919 INFO: Database connection established
+2025-09-28 16:31:26,919 INFO: Closing database connection
+2025-09-28 16:31:26,927 INFO: Fetching all courses from database
+2025-09-28 16:31:26,936 INFO: Database connection established
+2025-09-28 16:31:26,936 INFO: Closing database connection
+2025-09-28 16:31:26,943 INFO: 127.0.0.1 - - [28/Sep/2025 16:31:26] "GET /submit_feedback?email=krishanu.roy@mindteck.com HTTP/1.1" 200 -
+2025-09-28 16:31:34,687 INFO: Get student ID by email
+2025-09-28 16:31:34,712 INFO: Database connection established
+2025-09-28 16:31:34,715 INFO: Closing database connection
+2025-09-28 16:31:34,717 INFO: Fetching all courses from database
+2025-09-28 16:31:34,728 INFO: Database connection established
+2025-09-28 16:31:34,731 INFO: Closing database connection
+2025-09-28 16:31:34,744 INFO: Database connection established
+2025-09-28 16:31:34,744 INFO: Closing database connection
+2025-09-28 16:31:34,754 INFO: Database connection established
+2025-09-28 16:31:34,764 INFO: Feedback from student '2' is saved succesfully !!
+2025-09-28 16:31:34,764 INFO: Closing database connection
+2025-09-28 16:31:34,764 INFO: Feedback submitted: student=2, course=3
+2025-09-28 16:31:34,770 INFO: 127.0.0.1 - - [28/Sep/2025 16:31:34] "[32mPOST /submit_feedback?email=krishanu.roy@mindteck.com HTTP/1.1[0m" 302 -
+2025-09-28 16:31:34,780 INFO: 127.0.0.1 - - [28/Sep/2025 16:31:34] "GET /login HTTP/1.1" 200 -
+2025-09-28 16:32:11,637 INFO: 127.0.0.1 - - [28/Sep/2025 16:32:11] "GET /admin/login HTTP/1.1" 200 -
+2025-09-28 16:32:17,252 INFO: 127.0.0.1 - - [28/Sep/2025 16:32:17] "GET /admin/register HTTP/1.1" 200 -
+2025-09-28 16:32:26,485 INFO: Database connection established
+2025-09-28 16:32:26,493 INFO: Admin 'admin' is registered successfully !!
+2025-09-28 16:32:26,493 INFO: Closing database connection
+2025-09-28 16:32:26,501 INFO: Admin Registration successful for name =admin
+2025-09-28 16:32:26,503 INFO: 127.0.0.1 - - [28/Sep/2025 16:32:26] "[32mPOST /admin/register HTTP/1.1[0m" 302 -
+2025-09-28 16:32:26,508 INFO: 127.0.0.1 - - [28/Sep/2025 16:32:26] "GET /admin/login HTTP/1.1" 200 -
+2025-09-28 16:32:29,916 INFO: 127.0.0.1 - - [28/Sep/2025 16:32:29] "GET /admin/register HTTP/1.1" 200 -
+2025-09-28 16:32:36,256 INFO: Database connection established
+2025-09-28 16:32:36,272 INFO: Admin 'Krishanu' is registered successfully !!
+2025-09-28 16:32:36,272 INFO: Closing database connection
+2025-09-28 16:32:36,272 INFO: Admin Registration successful for name =Krishanu
+2025-09-28 16:32:36,272 INFO: 127.0.0.1 - - [28/Sep/2025 16:32:36] "[32mPOST /admin/register HTTP/1.1[0m" 302 -
+2025-09-28 16:32:36,280 INFO: 127.0.0.1 - - [28/Sep/2025 16:32:36] "GET /admin/login HTTP/1.1" 200 -
+2025-09-28 16:32:42,899 INFO: Admin Login Initiated
+2025-09-28 16:32:42,915 INFO: Database connection established
+2025-09-28 16:32:42,926 INFO: Successfully logged in as admin
+2025-09-28 16:32:42,927 INFO: Closing database connection
+2025-09-28 16:32:42,927 INFO: Admin logged in: admin
+2025-09-28 16:32:42,927 INFO: 127.0.0.1 - - [28/Sep/2025 16:32:42] "[32mPOST /admin/login HTTP/1.1[0m" 302 -
+2025-09-28 16:32:42,940 INFO: Admin accessed view_feedback route.
+2025-09-28 16:32:42,948 INFO: Database connection established
+2025-09-28 16:32:42,948 INFO: Closing database connection
+2025-09-28 16:32:42,956 INFO: Fetched 6 feedback entries.
+2025-09-28 16:32:42,964 INFO: 127.0.0.1 - - [28/Sep/2025 16:32:42] "GET /admin/view_feedback HTTP/1.1" 200 -
+2025-09-28 16:33:25,038 INFO: Admin accessed download_log route.
+2025-09-28 16:33:25,038 INFO: Log file path: d:\Mindteck Project\PythonTraining\Assignment\Project\app.log
+2025-09-28 16:33:25,038 INFO: Log file downloading by admin.
+2025-09-28 16:33:25,243 INFO: 127.0.0.1 - - [28/Sep/2025 16:33:25] "GET /admin/download_log HTTP/1.1" 200 -
+2025-09-28 16:33:59,068 INFO: 127.0.0.1 - - [28/Sep/2025 16:33:59] "GET /admin/login HTTP/1.1" 200 -
+2025-09-28 16:34:08,517 INFO: Admin Login Initiated
+2025-09-28 16:34:08,534 INFO: Database connection established
+2025-09-28 16:34:08,534 INFO: Successfully logged in as admin
+2025-09-28 16:34:08,534 INFO: Closing database connection
+2025-09-28 16:34:08,542 INFO: Admin logged in: krishanu
+2025-09-28 16:34:08,542 INFO: 127.0.0.1 - - [28/Sep/2025 16:34:08] "[32mPOST /admin/login HTTP/1.1[0m" 302 -
+2025-09-28 16:34:08,554 INFO: Admin accessed view_feedback route.
+2025-09-28 16:34:08,567 INFO: Database connection established
+2025-09-28 16:34:08,575 INFO: Closing database connection
+2025-09-28 16:34:08,575 INFO: Fetched 6 feedback entries.
+2025-09-28 16:34:08,575 INFO: 127.0.0.1 - - [28/Sep/2025 16:34:08] "GET /admin/view_feedback HTTP/1.1" 200 -
+2025-09-28 16:34:12,353 INFO: Admin accessed download_log route.
+2025-09-28 16:34:12,353 INFO: Log file path: d:\Mindteck Project\PythonTraining\Assignment\Project\app.log
+2025-09-28 16:34:12,353 INFO: Log file downloading by admin.
+2025-09-28 16:34:12,361 INFO: 127.0.0.1 - - [28/Sep/2025 16:34:12] "GET /admin/download_log HTTP/1.1" 200 -
